@@ -189,8 +189,8 @@ function countdown(){
           $("body").css("background-image", 'url(assets/images/timedoutimage.jpg)');
           $("#timer").html("<h2></h2>");
           $("#mainBanner").html("<h1>You think you're good enough?<h1>")
-          $("#triviaGame").html("<h1 class='wonLost'>Matches Won: " +trivia.correct+"</h1>");
-          $("#triviaGame").append("<h1 class='wonLost'>Matches Lost: "+trivia.incorrect+"</h1>");
+          $("#triviaGame").html("<h1 class='wonLost'>Rounds Won: " +trivia.correct+"</h1>");
+          $("#triviaGame").append("<h1 class='wonLost'>Rounds Lost: "+trivia.incorrect+"</h1>");
      }
 }
 
@@ -200,8 +200,8 @@ function forceStop(){
      stopCountdown();$("body").css("background-image", 'url(assets/images/donebuttonimage.jpg)');
      $("#timer").html("<h2></h2>");
      $("#mainBanner").html("<h1>Hey. You look like you need training, Guardian<h1>")
-     $("#triviaGame").html("<h1 class='wonLost'>Matches Won: " +trivia.correct+"</h1>");
-     $("#triviaGame").append("<h1 class='wonLost'>Matches Lost: "+trivia.incorrect+"</h1>");
+     $("#triviaGame").html("<h1 class='wonLost'>Rounds Won: " +trivia.correct+"</h1>");
+     $("#triviaGame").append("<h1 class='wonLost'>Rounds Lost: "+trivia.incorrect+"</h1>");
 }
 
 
